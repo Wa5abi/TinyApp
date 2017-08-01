@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"web",
+				"webPageReverse"
+			],
+			[
+				"we",
+				"webPageReverse"
+			],
+			[
+				"w",
+				"webPageArray"
+			],
+			[
+				"get",
+				"getHTML"
+			],
+			[
+				"re",
+				"requestOptions"
+			],
+			[
+				"err",
+				"errorMSG"
+			],
+			[
+				"round",
+				"roundNum"
+			],
+			[
+				"p",
+				"preRoot"
+			],
+			[
+				"ma",
+				"mean"
+			],
+			[
+				"sor",
+				"sortedObj"
+			],
+			[
+				"so",
+				"sortedObj"
+			],
+			[
+				"s",
+				"sortedObj"
+			],
+			[
+				"sort",
+				"sortedObj"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cou",
+				"countNum"
+			],
+			[
+				"roun",
+				"rounded"
+			],
+			[
+				"rou",
+				"round"
+			],
+			[
+				"pr",
+				"preRound"
+			],
+			[
+				"m",
+				"minNum"
+			],
+			[
+				"M",
+				"minNum"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"st",
+				"stringReverse"
+			],
+			[
+				"print",
+				"printPlaylists"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"sales",
+				"salesData"
+			],
+			[
+				"total",
+				"totalTaxes"
+			],
+			[
+				"co",
+				"company"
+			],
+			[
+				"sa",
+				"salesData"
+			],
+			[
+				"pro",
+				"province"
+			],
+			[
+				"whe",
+				"whereLetters"
+			],
+			[
+				"le",
+				"letterIsWhere"
+			],
+			[
+				"pre",
+				"preLeetStr"
+			],
+			[
+				"no",
+				"noSpaces"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/printing-with-callbacks.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/callbacks/print-reverse.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/callbacks/print-uppercase.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/callbacks/http-functions copy.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/callbacks/make-it-a-module.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/callbacks/print-lowercase.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/make-it-a-module.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/printing-buff-strings.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/http-functions.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/printing-with-parameters.js",
+		"/Users/wa5abi/lighthouse/w1d3/library/library.js",
+		"/Users/wa5abi/lighthouse/w2d1/scripting-requests/printing-in-chunks.js",
+		"/Users/wa5abi/lighthouse/w1d3/character-counting.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/answers/04.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/answers/03.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/answers/02.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/answers/01.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/answers/00.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/README.md",
+		"/Users/wa5abi/lighthouse/w1d3/advanced-practice.js",
+		"/Users/wa5abi/lighthouse/w1d4/array-maping-challenge.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test/.student-id",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/test/test_palindromes.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/lib/palindromes.js",
+		"/Users/wa5abi/lighthouse/w1d5/web-js-palindromes/package.json",
+		"/Users/wa5abi/lighthouse/w1d5/requiring-modules-two.js",
+		"/Users/wa5abi/lighthouse/w1d5/requiring-modules-one.js",
+		"/Users/wa5abi/lighthouse/w1d4/array-forEach.js",
+		"/Users/wa5abi/lighthouse/w1d4/callback-arguments.js",
+		"/Users/wa5abi/lighthouse/w1d3/character-positioning.js",
+		"/Users/wa5abi/lighthouse/week1day1/password.js",
+		"/Users/wa5abi/lighthouse/w1d2/day-calculator/day-calculator0/day-calculator.js",
+		"/Users/wa5abi/lighthouse/w1d2/day-calculator/print-in-frame.js",
+		"/Users/wa5abi/lighthouse/w1d2/palindrome/palindrome.js",
+		"/Users/wa5abi/lighthouse/w1d2/print-in-frame.js/print-in-frame.js",
+		"/Users/wa5abi/lighthouse/week1day1/concepts.js",
+		"/Users/wa5abi/lighthouse/w1d2/roll.js",
+		"/Users/wa5abi/lighthouse/week1day1/min/min.js",
+		"/Users/wa5abi/lighthouse/w1d2/average/average.js",
+		"/Users/wa5abi/lighthouse/w1d2/average/reverse.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/LoopyLighthouse.js",
+		"/Users/wa5abi/lighthouse/week1day1/sum.js",
+		"/Users/wa5abi/lighthouse/week1day1/lunch/lunch.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/test.js",
+		"/Users/wa5abi/lighthouse/test1.js",
+		"/Users/wa5abi/lighthouse/test0.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/ingredients.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/packing-list.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/chorus-for.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/chorus-while.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/go-outside.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/even.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/hello.js",
+		"/Users/wa5abi/lighthouse/lighthouse-js-fundamentals/odd.js",
+		"/Users/wa5abi/lighthouse/test.js",
+		"/Users/wa5abi/lighthouse/javascripting/scope.js",
+		"/Users/wa5abi/lighthouse/javascripting/function-arguments.js",
+		"/Users/wa5abi/lighthouse/javascripting/functions.js",
+		"/Users/wa5abi/lighthouse/javascripting/object-properties.js",
+		"/Users/wa5abi/lighthouse/javascripting/looping-through-arrays.js",
+		"/Users/wa5abi/lighthouse/javascripting/accessing-array-values.js",
+		"/Users/wa5abi/lighthouse/javascripting/array-filtering.js",
+		"/Users/wa5abi/lighthouse/javascripting/objects.js",
+		"/Users/wa5abi/lighthouse/javascripting/arrays.js",
+		"/Users/wa5abi/lighthouse/javascripting/for-loop.js",
+		"/Users/wa5abi/lighthouse/javascripting/if-statement.js",
+		"/Users/wa5abi/lighthouse/javascripting/number-to-string.js",
+		"/Users/wa5abi/lighthouse/javascripting/rounding-numbers.js",
+		"/Users/wa5abi/lighthouse/javascripting/numbers.js",
+		"/Users/wa5abi/lighthouse/javascripting/revising-strings.js",
+		"/Users/wa5abi/lighthouse/javascripting/string-length.js",
+		"/Users/wa5abi/lighthouse/javascripting/strings.js",
+		"/Users/wa5abi/lighthouse/javascripting/variables.js",
+		"/Users/wa5abi/lighthouse/javascripting/introduction.js"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 142.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
