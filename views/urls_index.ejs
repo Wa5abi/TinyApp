@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>TinyApp</title>
   </head>
   <body>
     <h1>URLs</h1>
     <ol>
-      <% for (const shortURL in urlDatabase) { %>
-        <li><a href="/urls/<% shortURL %>"><%= shortURL %></a></li>
-      <% } %>
+    <% for (const URL in shortURLs) { %>
+      <li>
+        <form method="POST" action="/urls/${URL}/delete">
+          <a href="/urls/<%= URL %>"><%= URL %></a>
+        </form>
+      </li>
+    <% } %>
     </ol>
-    <form method="POST" action="/urls/9sm5xK/delete">...</form>
-    <h1>Hello World!</h1>
+
   </body>
 </html>
