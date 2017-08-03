@@ -4,6 +4,12 @@
     <title>TinyApp</title>
   </head>
   <body>
+    <h1>URLs</h1>
+    <ol>
+      <% for (const shortURL in urlDatabase) { %>
+        <li><a href="/urls/<% shortURL %>"><%= shortURL %></a></li>
+      <% } %>
+    </ol>
     <form method="POST" action="/urls/9sm5xK/delete">...</form>
     <h1>Hello World!</h1>
   </body>
