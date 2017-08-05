@@ -50,8 +50,6 @@ app.get("/urls/:shortId", (req, res) => {
 
 // posts a new "shortId" and "longUrl".
 app.post("/urls/new", (req, res) => {
-  // shortId returns function not function output.
-  // Why?
   let shortId = randomId;
   const longUrl = req.body.longUrl;
   urlDatabase[shortId] = longUrl;
@@ -63,7 +61,7 @@ app.post("/urls/new", (req, res) => {
   res.redirect("/urls")
 });
 
-//deletes a short URL.
+//deletes a shortId and longUrl.
 app.post("/urls/:shortId/delete", (req, res) => {
   const shortId = req.params.shortId;
   console.log(shortId);
@@ -71,7 +69,7 @@ app.post("/urls/:shortId/delete", (req, res) => {
   res.redirect("/urls");
 });
 
-//updates urlDatabase.
+//updates urlDatabase when you change a longUrl.
 app.post("/urls/:shortId", (req, res) => {
   const shortId = req.params.shortId;
   const longUrl = req.body.longUrl;
