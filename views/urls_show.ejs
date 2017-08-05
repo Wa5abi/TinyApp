@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Url edit</title>
+  </head>
+  <body>
+    <h1>ShortURL: <%= shortId %></h1>
+    <form action="/urls/<%= shortId %>" method="POST">
+      <input id="longUrl" type="text" name="longUrl" placeholder=<%= url %> style="width: 300px">
+      <button>Update</button>
+    </form>
+  </body>
+</html>

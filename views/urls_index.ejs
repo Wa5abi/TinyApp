@@ -7,15 +7,15 @@
   </head>
   <body>
     <h1>URLs</h1>
-    <ol>
-    <% for (const URL in shortURLs) { %>
+    <ul>
+    <% for (const url in shortId) { %>
       <li>
-        <form method="POST" action="/urls/${URL}/delete">
-          <a href="/urls/<%= URL %>"><%= URL %></a>
+        <form method="POST" action="/urls/<%= url %>/delete">
+          <p><%= url %> => <a href="<%= shortId[url] %>"><%= shortId[url] %></a> <a href="/urls/<%= url %>">edit</a> <button>Delete</button></p>
         </form>
       </li>
     <% } %>
-    </ol>
-
+    </ul>
+    <a href="/urls/new">Make new link</a>
   </body>
 </html>
