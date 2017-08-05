@@ -1,8 +1,10 @@
 const express = require("express");
+const cookieParser = require("cookie-parser")
 const app = express();
 const PORT = process.env.PORT || 8080; // default port 8080
 const bodyParser = require("body-parser");
 
+app.use(cookieParser())
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.set("view engine", "ejs");
@@ -33,6 +35,7 @@ app.get("/urls", (req, res) => {
   res.render("urls_index", templateVars);
 });
 
+// brings you to Make new Urls page.
 app.get("/urls/new", (req, res) => {
   res.render("urls_new");
 });
@@ -53,18 +56,12 @@ app.post("/urls/new", (req, res) => {
   let shortId = randomId;
   const longUrl = req.body.longUrl;
   urlDatabase[shortId] = longUrl;
-
-  console.log('making: ', shortId);
-  console.log('longUrl: ', longUrl);
-  console.log('urlDB: ', urlDatabase);
-
   res.redirect("/urls")
 });
 
 //deletes a shortId and longUrl.
 app.post("/urls/:shortId/delete", (req, res) => {
   const shortId = req.params.shortId;
-  console.log(shortId);
   delete urlDatabase[shortId];
   res.redirect("/urls");
 });
@@ -74,11 +71,6 @@ app.post("/urls/:shortId", (req, res) => {
   const shortId = req.params.shortId;
   const longUrl = req.body.longUrl;
   urlDatabase[shortId] = longUrl;
-
-  console.log('Updating: ', shortId);
-  console.log('longUrl: ', longUrl);
-  console.log('urlDB: ', urlDatabase);
-
   res.redirect("/urls");
 });
 
